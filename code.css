@@ -1,0 +1,16 @@
+container {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing */
+}
+
+main {
+    flex: 2; /* Main content takes more space */
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+aside {
+    flex: 1; /* Sidebar takes less space */
+    padding: 20px;
+    background: #ddd;
+}
